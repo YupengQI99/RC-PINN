@@ -279,7 +279,7 @@ def calculate_r2(pred, actual):
 
 
 XS, YS = sympy.symbols('x y')
-rectan = gd2.Rectangle((-1.25, -1.25), (1.25, 1.25))
+rectan = gd2.Rectangle((-1, -1), (1, 1))
 
 # 定义批次大小
 batch_size = 32
